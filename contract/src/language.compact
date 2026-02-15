@@ -1,0 +1,19 @@
+// This file is part of language-proficiency-gate
+// Copyright (C) 2025
+// SPDX-License-Identifier: Apache-2.0
+// Licensed under the Apache License, Version 2.0 (the "License");
+// You may not use this file except in compliance with the License.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+pragma language_version >= 0.20;
+import CompactStandardLibrary;
+
+// Public state: tracks verified proficiency count
+export ledger verifiedUsers: Uint<64>;
+
+// Circuit to verify user meets minimum level
+export circuit quickVerify(userLevel: Uint<64>, minLevel: Uint<64>): [] {
+  assert(userLevel >= minLevel, "user level must meet minimum");
+  verifiedUsers = (verifiedUsers + 1) as Uint<64>;
+}

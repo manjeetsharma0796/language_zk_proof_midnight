@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../../",
+  "sources": ["src/language.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAQA;;;;;;;;;;MAOA,AAAA,WAGC;;;;;cAH0B,WAAmB;cAAE,UAAkB;;;;;;;;;;;;;;;;;;;;;;;;;yCAAvC,WAAmB,+BAAE,UAAkB;;;;;;;;;6CAAvC,WAAmB;6CAAE,UAAkB;;;OAGjE;;;GACA;EAXD;;;;;;;;;;;;;;;;;;;;;;;;;;IAIA;;;;;;;;;yEAAsC;;;;;;;GAOrC;EAJD,AAAA,cAGC,4BAH0B,WAAmB,EAAE,UAAkB;4BACzD,WAAS,IAAI,UAAQ;;UAC5B,KAAa;;;;;6CAAI;;;;;;;;;;;kHAAa;;;IAA9B;;;;;;;2HAAA,KAAa;;yEAAA;;GACd;;;;;;;;;;;;;;;;IAND;qCAAA;;;;;;;;;;;0GAAsC;KAAA;;;;;;;;;;"
+}
