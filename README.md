@@ -2,6 +2,9 @@
 
 Frontend app that interacts with the deployed **Language** smart contract: verify proficiency and see the verified users count in real time.
 
+[![Demo Screenshot](./screenshot.png)]
+
+
 ## What the app does
 
 - **Shows live contract state** — Displays **Verified users** count from your deployed contract (read from the indexer; no wallet join required).
